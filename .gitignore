@@ -1,0 +1,28 @@
+# macOS / Linux system files
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Expo / React Native
+.expo/
+.expo-shared/
+expo-debug.log
+android/
+ios/
+web-build/
+
+# Build artifacts
+dist/
+build/
+.tmp/
+
+# Env files
+.env*
+.env.local
+
+# VSCode
+.vscode/
