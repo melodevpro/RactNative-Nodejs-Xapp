@@ -18,6 +18,8 @@ app.get("/", (req, res) => res.send ("Hola desde el servidor"));
 
 app.use("/api/users", userRoutes);
 app.use("/api/posts", postRoutes);
+app.use("/api/comments", commentRoutes);
+// 1:38:12 tutorial
 
 // error handling middleware
 app.use((err, req, res, next) => {
